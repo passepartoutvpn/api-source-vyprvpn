@@ -1,0 +1,12 @@
+VyprVPN infrastructure is public but the link is kind of buried.
+
+https://support.goldenfrog.com/hc/en-us/articles/360009425192-Where-can-I-find-the-OpenVPN-files-
+https://support.goldenfrog.com/hc/article_attachments/360008728172/GF_OpenVPN_10142016.zip
+
+Judging from the filename, not sure if it's updated enough. Strangely, only provides UDP endpoints.
+
+Another list of servers:
+
+https://support.goldenfrog.com/hc/en-us/articles/360011055671-What-are-the-VyprVPN-server-addresses-
+
+73 servers in both resources as of 2019-04-26.
