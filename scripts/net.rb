@@ -14,6 +14,7 @@ domain = "vpn.goldenfrog.com"
 cfg = {
     ca: ca,
     frame: 1,
+    compression: 1,
     ping: 10,
     eku: true
 }
