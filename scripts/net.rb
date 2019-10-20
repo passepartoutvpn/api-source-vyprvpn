@@ -16,7 +16,7 @@ cfg = {
     frame: 1,
     compression: 1,
     ping: 10,
-    eku: true
+    eku: false
 }
 
 external = {
