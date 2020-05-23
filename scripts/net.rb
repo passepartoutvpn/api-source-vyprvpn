@@ -16,6 +16,7 @@ cfg = {
     frame: 1,
     compression: 1,
     ping: 10,
+    pingTimeout: 60,
     eku: false
 }
 
