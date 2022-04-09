@@ -1,5 +1,5 @@
 #!/bin/bash
-URL="https://support.goldenfrog.com/hc/en-us/articles/360011055671-What-are-the-VyprVPN-server-addresses-"
+URL="https://support.vyprvpn.com/hc/en-us/articles/360037728912-What-are-the-VyprVPN-server-addresses-"
 TPL="template"
 SERVERS_SRC="$TPL/servers.html"
 SERVERS_DST="$TPL/servers.csv"
