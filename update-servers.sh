@@ -9,8 +9,8 @@ if ! curl -L $URL >$SERVERS_SRC.tmp; then
     exit
 fi
 mv $SERVERS_SRC.tmp $SERVERS_SRC
-sed -nE "s/^.*width: 263\.15px;\">.+ - ([^,]+).*<\/td>$/\1/p" $SERVERS_SRC >names.out
-sed -nE "s/^.*;\">([^0-9]+)([0-9]*)\.vpn\.goldenfrog\.com<.*$/\1\2,\1/p" $SERVERS_SRC >ids.out
+sed -nE "s/^.*height: 22px;\">.+ - ([^,]+).*<\/td>$/\1/p" $SERVERS_SRC >names.out
+sed -nE "s/^.*;\">([^0-9]+)([0-9]*)\.vyprvpn\.com<.*$/\1\2,\1/p" $SERVERS_SRC >ids.out
 paste -d ',' ids.out names.out >$SERVERS_DST
 rm *.out
 
